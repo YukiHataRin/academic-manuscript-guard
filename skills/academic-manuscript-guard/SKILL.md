@@ -39,6 +39,8 @@ Use [references/examples.md](references/examples.md) when a passage mixes these 
 
 ## Deliver and check
 
+Use dimension-specific reviewer agents for manuscript review by default when delegation is available and permitted. Read [references/multi-agent-review.md](references/multi-agent-review.md) before delegating. Four review dimensions cover drafting residue, defensive framing and scope, scientific fidelity, and terminology and manuscript voice. Reviewers propose findings; only the coordinating agent integrates edits. Respect an explicit single-agent request. If delegation is unavailable, perform the same passes locally and disclose that no independent agents ran when reporting review coverage.
+
 Respect the requested output format. For a clean revision, provide the revised text; add only consequential unresolved questions separately. Do not insert lint labels, editorial explanations, or author-facing comments into manuscript prose.
 
 For an audit, use a compact table of passage, issue, suggested revision, and meaning to preserve. Distinguish required factual clarification from optional stylistic improvement. Avoid reporting every sentence containing a keyword.
