@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Manuscript Guard"
+  short_description: "Remove drafting residue while preserving scientific meaning"
+  default_prompt: "Use $academic-manuscript-guard to revise this manuscript for drafting residue and unnecessary defensive framing while preserving its claims, evidence, and limitations."
