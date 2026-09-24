@@ -5,7 +5,9 @@ description: Draft, revise, or audit academic prose for drafting residue and def
 
 # Academic Manuscript Guard
 
-Make manuscript prose communicate the research itself. Keep editorial negotiations, drafting history, and instructions to the author outside the manuscript. Apply to English and Traditional Chinese; preserve the requested language and disciplinary voice.
+Make manuscript prose communicate the research itself. Keep editorial negotiations, drafting history, and instructions to the author outside the manuscript. Apply across languages; preserve the user's chosen writing language and disciplinary voice.
+
+The user determines the language of the manuscript, captions, figure labels, and explanations, including any requested mix of languages. Do not impose English, Traditional Chinese, or another language based on this skill's examples or the conversation language. When no language is specified, preserve the existing document's language; for a new document, infer it from the task context and clarify only when the choice is consequential and unclear. Translate only within the requested scope.
 
 “Meta-writing leakage” and “authoring-process leakage” are descriptive working labels here, not claims of an established scholarly taxonomy.
 
