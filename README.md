@@ -27,6 +27,14 @@
 
 詳細流程見 [多代理審查規範](skills/academic-manuscript-guard/references/multi-agent-review.md)。
 
+## 論文圖件與混合式SVG
+
+使用者要求製圖時，可先以imagegen生成含文字的科學圖設計稿，逐區核對方法正確性，再取得無文字插畫素材，以SVG重建可編輯文字、框線與主要箭頭。保留生成稿的插畫風格，但不照搬錯誤的資料流、損失名稱或訓練關係。實驗曲線與數據圖使用真實保存資料及確定性繪圖工具。
+
+流程涵蓋向量／點陣圖層區分、素材來源、渲染檢查、中文短圖說、正文介紹及LaTeX自動編號。一般文字修訂不自動啟動圖像生成或改動版面；圖片生成與PDF輸出依所在環境的工具與相關skill執行。
+
+詳細流程見 [論文圖件規範](skills/academic-manuscript-guard/references/manuscript-figures.md)。
+
 ## 安裝方式
 
 本專案的 Skill 位於 `skills/academic-manuscript-guard`，無 Python 或第三方套件相依性。從專案根目錄執行：
@@ -59,4 +67,4 @@ List only actionable passages, suggested revisions, and scientific meaning to pr
 - [案例](skills/academic-manuscript-guard/references/examples.md)：應修改與應保留的英中範例。
 - [介面設定](skills/academic-manuscript-guard/agents/openai.yaml)：顯示名稱與預設提示詞。
 
-此版本以語意保真為優先；不負責查證論文結果、補充引用或修改文件版面。
+此版本以語意保真為優先；圖件流程僅在相關請求下使用，不代表已獨立驗證論文結果或完成外部文獻查證。
